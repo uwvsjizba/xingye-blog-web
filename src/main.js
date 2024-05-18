@@ -1,13 +1,10 @@
+import { createApp } from "vue";
+import App from "./App.vue"
+import router from "@/router"
 
-import request from "@/config/request.config.js"
 
-let res;
-try {
-    res = await request({
-        url: "/user/getVaildateCode",
-        method: "GET"
-    });
-    console.log(res);
-} catch(err){
-    console.log(err);
-}
+const app = createApp(App);
+
+app.use(router).mount(document.getElementById("app"));
+
+
