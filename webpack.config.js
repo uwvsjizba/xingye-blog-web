@@ -10,7 +10,7 @@ module.exports = {
         filename: "./js/main.js"
     },
 
-    modulle: {
+    module: {
         rules:[
 
         ]
@@ -21,6 +21,13 @@ module.exports = {
             template: path.resolve(__dirname, "./public/index.html")
         })
     ],
+    
+    resolve: {
+        alias: {
+            "@": path.resolve(__dirname, "./src")
+        }
+    },
+
     devServer: {
         host: "localhost",
         port: "1125",
