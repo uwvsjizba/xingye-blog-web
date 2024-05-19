@@ -22,8 +22,6 @@
     grid-template-columns: 500px 150px;
     grid-template-rows: repeat(3, 100px);
     grid-area: 
-        "left" "right"
-        "left" "right"
         "left" "right";
     #left {
         grid-area: "left";
