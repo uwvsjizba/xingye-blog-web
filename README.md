@@ -2,4 +2,4 @@
 
 ### 使用 webpack 搭建 vue3 脚手架
 
-
+- vue-loader

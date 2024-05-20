@@ -5,9 +5,9 @@ const { VueLoaderPlugin } = require("vue-loader");
 
 
 /**
- * 
+ * 得到一个 Css Loader 处理数组
  * @param {String} pre 前置Loader
- * @returns {Array} LoaderUse 数组
+ * @returns {Array} 
  */
 const getCssRuleUseList = (pre) => {
     return [
